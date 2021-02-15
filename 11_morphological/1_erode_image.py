@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("erode.bmp", cv2.IMREAD_UNCHANGED)
+img = cv2.imread("./images/erode.bmp", cv2.IMREAD_UNCHANGED)
 kernel = np.ones((5,5), np.uint8)
 
 r1 = cv2.erode(img, kernel)

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("kernel.bmp", cv2.IMREAD_UNCHANGED)
+img = cv2.imread("./images/kernel.bmp", cv2.IMREAD_UNCHANGED)
 
 kernel1 = cv2.getStructuringElement(cv2.MORPH_RECT, (59,59))
 kernel2 = cv2.getStructuringElement(cv2.MORPH_CROSS,  (59,59))

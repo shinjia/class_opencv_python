@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 
-img1 = cv2.imread("closing.bmp")
-img2 = cv2.imread("closing2.bmp")
+img1 = cv2.imread("./images/closing.bmp")
+img2 = cv2.imread("./images/closing2.bmp")
 
 k = np.ones((10,10), np.uint8)
 

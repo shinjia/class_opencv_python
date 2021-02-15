@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("dilation.bmp", cv2.IMREAD_UNCHANGED)
+img = cv2.imread("./images/dilation.bmp", cv2.IMREAD_UNCHANGED)
 kernel = np.ones((9,9), np.uint8)
 
 r1 = cv2.dilate(img, kernel)
