@@ -14,11 +14,11 @@
 - capture1.py
 - capture2.py
 - fps.py
-- video_info.py
-- video_set.py
-- video_resize.py
-- write_video.py
 - read_video.py
+- video_info.py
+- video_resize.py
+- video_set.py
+- write_video.py
 
 ## 03_drawing
 - drawing.py
