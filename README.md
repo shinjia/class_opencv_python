@@ -66,7 +66,7 @@
 ## 09_convolution
 - array_rotate.py
 - correlation.py
-- convolution.py
+- convolution1D.py
 - convolution2D.py
 
 ## 10_filtering
