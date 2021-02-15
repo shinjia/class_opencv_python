@@ -3,10 +3,15 @@ from scipy.signal import convolve2d
 
 x = np.array( [ [1, 1, 1], [1, 1, 1], [1, 1, 1] ] )
 h = np.array( [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ] )
-y = convolve2d( x, h, 'same' )
-print( "x =" )
-print( x )
-print( "h =" )
-print( h )
-print( "Convolution y =" )
-print( y )
+y1 = convolve2d( x, h, 'full' )
+y2 = convolve2d( x, h, 'same' )
+
+
+print("x =")
+print(x)
+print("h =")
+print(h)
+print("Full Convolution y1 =")
+print(y1)
+print("Convolution y2 =")
+print(y2)
