@@ -20,15 +20,7 @@ h = np.array( [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ] )
 y1 = naive_correlation(x, h)
 y2 = naive_correlation(x, np.flip(h))
 
-print("x =")
-print(x)
-print("h =")
-print(h)
-print("Correlation y1 =")
-print(y1)
-print("Convolution y2 =")
-print(y2)
-
-# [[12 21 16]
-#  [27 45 33]
-#  [24 39 28]]
+print("x =\n", x)
+print("h =\n", h)
+print("Correlation y1 =\n", y1)
+print("Convolution y2 =\n", y2)

@@ -19,15 +19,15 @@ def Sobel_gradient( f, direction = 1 ):
 		g = np.uint8( np.clip( magnitude, 0, 255 ) )
 	return g
 		
-def main( ):
-	img = cv2.imread( "../images/Osaka.bmp", -1 )
-	gx  = Sobel_gradient( img, 1 )
-	gy  = Sobel_gradient( img, 2 )
-	g   = Sobel_gradient( img, 3 )
-	cv2.imshow( "Original Image", img )
-	cv2.imshow( "Gradient in x", gx )
-	cv2.imshow( "Gradient in y", gy )
-	cv2.imshow( "Gradient", g )
-	cv2.waitKey( 0 )
+def main():
+	img = cv2.imread("../images/Osaka.bmp", -1)
+	gx  = Sobel_gradient(img, 1)
+	gy  = Sobel_gradient(img, 2)
+	g   = Sobel_gradient(img, 3)
+	cv2.imshow("Original Image", img)
+	cv2.imshow("Gradient in x", gx)
+	cv2.imshow("Gradient in y", gy)
+	cv2.imshow("Gradient", g)
+	cv2.waitKey(0)
 
-main( )
+main()

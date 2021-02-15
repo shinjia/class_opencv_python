@@ -71,17 +71,34 @@
 - image_filter.py
 - image_manual.py
 
+## 10_smoothing
+- filter_2D.py
+- average_blur.py
+- box_filter.py
+- gaussian_blur.py
+- median_blur.py
+- bilaternal_filter.py
+- bilaternal_filter_diff.py
+- add_noise.py
+
 ## 10_filtering
-- average_filtering.py
-- bilateral_filtering.py
 - composite_laplacian.py
-- gaussian_filtering.py
 - image_gradient.py
 - laplacian.py
-- median_filtering.py
 - unsharp_masking.py
 
 ## 11_morphological
+- 1_erode_basic.py
+- 1_erode_image.py
+- 2_dilate_basic.py
+- 2_dilate_image.py
+- 3_open.py
+- 4_close.py
+- 5_gradient.py
+- 6_tophat.py
+- 7_blackhat.py
+- 8_kernel_basic.py
+- 8_kernel_image.py
 
 ## 12_gradient
 
