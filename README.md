@@ -1,8 +1,5 @@
 # class_opencv_python
 
-[![hackmd-github-sync-badge](https://hackmd.io/iIG0vWqoTB-pToOkLOBrjw/badge)](https://hackmd.io/iIG0vWqoTB-pToOkLOBrjw)
-
-
 # 程式總目錄
 
 ## 01_file
@@ -67,6 +64,8 @@
 - image_negative.py
 
 ## 09_convolution
+- array_rotate.py
+- correlation.py
 - convolution.py
 - convolution2D.py
 
