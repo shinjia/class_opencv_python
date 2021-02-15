@@ -14,11 +14,11 @@
 - capture1.py
 - capture2.py
 - fps.py
-- read_video.py
 - video_info.py
-- video_resize.py
 - video_set.py
+- video_resize.py
 - write_video.py
+- read_video.py
 
 ## 03_drawing
 - drawing.py
@@ -109,7 +109,17 @@
 
 ## 18_restoration
 
-## 19_effect
+
+## 19_pyramid
+- p1.py
+- p2.py
+- p3.py
+- p4.py
+- p5.py
+- p6.py
+- p7.py
+
+## 20_effect
 - detail_enhancement.py
 - edge_preserving_filter.py
 - fisheye_effect.py
@@ -122,12 +132,14 @@
 - stylization.py
 - twirl_effect.py
 
-## 20_features_people
+## 30_features_people
 - face_detection.py
 - skin_color_detection.py
 - skin_color_detection2.py
 
-## 21_face_detection
+## 32_k-nearest
+
+## 35_face_detection
 - 1.py
 - 1_camera.py
 - 2.py
