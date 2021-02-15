@@ -68,6 +68,8 @@
 - correlation.py
 - convolution1D.py
 - convolution2D.py
+- image_filter.py
+- image_manual.py
 
 ## 10_filtering
 - average_filtering.py
