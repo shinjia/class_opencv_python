@@ -30,6 +30,13 @@ kernel = np.array([[1, 1, 1],
 filtered = cv2.filter2D(src=image, kernel=kernel, ddepth=-1)
 cv2.imshow('blurred', filtered)
 
+# emboss
+kernel = np.array([[-2, -1, 0],
+                   [-1,  1, 1],
+                   [ 0,  1, 2]]) / 9.0
+filtered = cv2.filter2D(src=image, kernel=kernel, ddepth=-1)
+cv2.imshow('emboss', filtered)
+
 # sharpening
 kernel = (np.array([[-1, -1, -1],
                     [-1,  9, -1],
