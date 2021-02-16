@@ -25,13 +25,15 @@
 - ROI1.py
 - ROI2.py
 
-## 04_drawing
+## 04_operation
+
+## 05_drawing
 - drawing.py
 - paint1.py
 - paint2.py
 - puttext.py
 
-## 05_colorspace
+## 06_colorspace
 - model_CMY.py
 - model_HSI.py
 - model_HSV.py
@@ -40,7 +42,7 @@
 - pseudo_color.py
 - track_bar.py
 
-## 06_transformation
+## 07_transformation
 - affine_transform.py
 - forward_mapping.py
 - image_flip.py
@@ -49,7 +51,7 @@
 - image_scaling.py
 - perspective_transform.py
 
-## 07_enhancement
+## 08_enhancement
 - beta_correction.py
 - beta_function.py
 - gamma_correction.py
@@ -58,7 +60,7 @@
 - histogram_equalization.py
 - image_negative.py
 
-## 08_convolution
+## 09_convolution
 - array_rotate.py
 - correlation.py
 - convolution1D.py
@@ -66,7 +68,7 @@
 - image_filter.py
 - image_manual.py
 
-## 09_smoothing
+## 10_smoothing
 - filter_2D.py
 - average_blur.py
 - box_filter.py
@@ -76,7 +78,7 @@
 - bilaternal_filter_diff.py
 - add_noise.py
 
-## 10_morphological
+## 11_morphological
 - 1_erode_basic.py
 - 1_erode_image.py
 - 2_dilate_basic.py
@@ -89,7 +91,7 @@
 - 8_kernel_basic.py
 - 8_kernel_image.py
 
-## 11_gradient
+## 12_gradient
 - 1_abs.py
 - 2_sobel1.py
 - 2_sobel2.py
@@ -98,22 +100,22 @@
 - 4_compare.py
 - 5_laplacian.py
 
-## 12_sharpness
+## 13_sharpness
 - composite_laplacian.py
 - image_gradient.py
 - laplacian.py
 - unsharp_masking.py
 
-## 13_thresholding
+## 14_thresholding
 - 1.py
 - 2.py
 - 3.py
 
-## 14_edge
+## 15_edge
 
-## 15_contour
+## 16_contour
 
-## 16_corner
+## 17_corner
 - harris_corner_detection.py
 - ORB_feature_detection.py
 - ORB_feature_matching.py
@@ -121,7 +123,7 @@
 - SIFT_feature_detection.py
 - harris_corner\1.py
 
-## 17_features_misc
+## 18_features_misc
 - CC_labeling.py
 - convexity_defects.py
 - convex_hull.py
@@ -130,11 +132,11 @@
 - polygon_approximation.py
 - shape_features.py
 
-## 18_template_match
+## 19_template_match
 
-## 19_restoration
+## 20_restoration
 
-## 20_pyramid
+## 21_pyramid
 - p1.py
 - p2.py
 - p3.py
@@ -143,7 +145,7 @@
 - p6.py
 - p7.py
 
-## 21_effect
+## 22_effect
 - detail_enhancement.py
 - edge_preserving_filter.py
 - fisheye_effect.py
