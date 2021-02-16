@@ -26,14 +26,9 @@
 - ROI2.py
 
 ## 04_operation
+- stack.py
 
-## 05_drawing
-- drawing.py
-- paint1.py
-- paint2.py
-- puttext.py
-
-## 06_colorspace
+## 05_colorspace
 - model_CMY.py
 - model_HSI.py
 - model_HSV.py
@@ -42,7 +37,7 @@
 - pseudo_color.py
 - track_bar.py
 
-## 07_transformation
+## 06_transformation
 - affine_transform.py
 - forward_mapping.py
 - image_flip.py
@@ -50,6 +45,12 @@
 - image_rotation.py
 - image_scaling.py
 - perspective_transform.py
+
+## 07_drawing
+- drawing.py
+- paint1.py
+- paint2.py
+- puttext.py
 
 ## 08_enhancement
 - beta_correction.py
@@ -112,8 +113,10 @@
 - 3.py
 
 ## 15_edge
+- canny.py
 
 ## 16_contour
+- find_contours.py
 
 ## 17_corner
 - harris_corner_detection.py
@@ -123,20 +126,23 @@
 - SIFT_feature_detection.py
 - harris_corner\1.py
 
-## 18_features_misc
+## 18_shape
+- hough_line_detection.py
+- hough_circle_detection.py
+- shape_features.py
+- polygon_approximation.py
+
+## 19_features_misc
 - CC_labeling.py
 - convexity_defects.py
 - convex_hull.py
-- find_contours.py
 - fourier_descriptors.py
-- polygon_approximation.py
-- shape_features.py
 
-## 19_template_match
+## 20_template_match
 
-## 20_restoration
+## 21_restoration
 
-## 21_pyramid
+## 22_pyramid
 - p1.py
 - p2.py
 - p3.py
@@ -145,7 +151,7 @@
 - p6.py
 - p7.py
 
-## 22_effect
+## 23_effect
 - detail_enhancement.py
 - edge_preserving_filter.py
 - fisheye_effect.py
