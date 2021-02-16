@@ -7,8 +7,8 @@ def laplacian(f):
 	return g
 		
 def main():
-	img = cv2.imread("../images/Osaka.bmp", -1)
-	r = laplacian(img1)
+	img = cv2.imread("../images/osaka.bmp", -1)
+	r = laplacian(img)
 	cv2.imshow("Original Image", img)
 	cv2.imshow("Laplacian", r)
 	cv2.waitKey(0)
