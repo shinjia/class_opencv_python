@@ -15,7 +15,7 @@ def motion_blur( f, length, angle ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Traffic_Lanes.bmp", -1 )
+	img1 = cv2.imread('./images/traffic_lanes.bmp', -1 )
 	img2 = motion_blur( img1, 20, 0 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Motion Blur", img2 )

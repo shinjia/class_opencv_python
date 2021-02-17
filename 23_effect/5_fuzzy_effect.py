@@ -15,7 +15,7 @@ def fuzzy_effect( f, W ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Brunch.bmp", -1 )
+	img1 = cv2.imread('./images/brunch.bmp', -1 )
 	img2 = fuzzy_effect( img1, 3 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Fuzzy Effect", img2 )

@@ -19,7 +19,7 @@ def twirl_effect( f, K ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Car.bmp", -1 )
+	img1 = cv2.imread('./images/car.bmp', -1 )
 	img2 = twirl_effect( img1, 50 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Twirl Effect", img2 )

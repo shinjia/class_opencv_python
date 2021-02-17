@@ -2,13 +2,13 @@ import numpy as np
 import cv2
 
 def main():
-    img = cv2.imread( "../images/Brunch.bmp", -1 )
-    img1, img2 = cv2.pencilSketch( img )
-    cv2.imshow( "Original Image", img )
-    cv2.imshow( "Pencil Sketch 1", img1 )
-    cv2.imshow( "Pencil Sketch 2", img2 )
-    cv2.waitKey( 0 )
-
+    img = cv2.imread('./images/cow.jpg', -1)
+    img1, img2 = cv2.pencilSketch(img)
+    cv2.imshow("Original Image", img)
+    cv2.imshow("Pencil Sketch 1", img1)
+    cv2.imshow("Pencil Sketch 2", img2)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
 def live():    
     cap = cv2.VideoCapture(0)
@@ -26,5 +26,7 @@ def live():
         k = cv2.waitKey(1) & 0xFF
         if k == 27:
             break
+    cv2.destroyAllWindows()
 
+main()
 live()

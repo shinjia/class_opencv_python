@@ -33,7 +33,7 @@ def ripple_effect( f, method, amplitude, period ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Snow_Mountain.bmp", -1 )
+	img1 = cv2.imread('./images/snow_mountain.bmp', -1 )
 	img2 = ripple_effect( img1, 1, 5, 2 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Ripple Effect", img2 )

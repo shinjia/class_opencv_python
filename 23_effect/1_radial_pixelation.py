@@ -20,8 +20,8 @@ def radial_pixelation( f, delta_r, delta_theta ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Peacock.bmp", -1 )
-	img2 = radial_pixelation( img1, 5, 5 )
+	img1 = cv2.imread('./images/peacock.bmp', -1)
+	img2 = radial_pixelation(img1, 5, 5)
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Radial Pixelation", img2 )
 	cv2.waitKey( 0 )

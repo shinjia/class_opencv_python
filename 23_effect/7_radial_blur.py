@@ -31,7 +31,7 @@ def radial_blur( f, filter_size ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Brunch.bmp", -1 )
+	img1 = cv2.imread('./images/brunch.bmp', -1 )
 	img2 = radial_blur( img1, 15 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Radial Blur", img2 )

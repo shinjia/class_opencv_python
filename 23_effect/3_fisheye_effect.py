@@ -20,7 +20,7 @@ def fisheye_effect( f ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Bug.bmp", -1 )
+	img1 = cv2.imread('./images/bug.bmp', -1 )
 	img2 = fisheye_effect( img1 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Fisheye Effect", img2 )
