@@ -115,10 +115,7 @@
 ## 15_edge
 - canny.py
 
-## 16_contour
-- find_contours.py
-
-## 17_corner
+## 16_corner
 - harris_corner_detection.py
 - ORB_feature_detection.py
 - ORB_feature_matching.py
@@ -126,11 +123,16 @@
 - SIFT_feature_detection.py
 - harris_corner\1.py
 
+## 17_contour
+- 1_find_contours1.py
+- 1_find_contours2.py
+- 2_approxpoly.py
+- 2_polygon_approximation.py
+
 ## 18_shape
 - hough_line_detection.py
 - hough_circle_detection.py
 - shape_features.py
-- polygon_approximation.py
 
 ## 19_features_misc
 - CC_labeling.py

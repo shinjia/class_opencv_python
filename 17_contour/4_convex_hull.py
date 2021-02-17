@@ -18,7 +18,7 @@ def convex_hull( f ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Hand.bmp", 0 )
+	img1 = cv2.imread( "./images/hand.bmp", 0 )
 	img2 = convex_hull( img1 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Convex Hull", img2 )

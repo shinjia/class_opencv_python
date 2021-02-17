@@ -14,3 +14,4 @@ for i in circles[0,:]:
 cv2.imshow( "Original Image", img1 )
 cv2.imshow( "Circle Detection", img2 )
 cv2.waitKey( 0 )
+cv2.destroyAllWindows()

@@ -23,7 +23,7 @@ def convexity_defects( f ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "../images/Hand.bmp", -1 )
+	img1 = cv2.imread( "./images/hand.bmp", -1 )
 	img2 = convexity_defects( img1 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Convex Defects", img2 )
