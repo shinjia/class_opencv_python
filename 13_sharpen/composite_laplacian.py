@@ -8,10 +8,11 @@ def composite_laplacian(f):
 	return g
 		
 def main():
-	img = cv2.imread("../images/osaka.bmp", -1)
+	img = cv2.imread("./images/osaka.bmp", -1)
 	r = composite_laplacian(img)
 	cv2.imshow("Original Image", img)	
 	cv2.imshow("Composite Laplacian", r)
 	cv2.waitKey(0)
+	cv2.destroyAllWindows()
 
 main()

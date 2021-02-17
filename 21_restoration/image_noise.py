@@ -82,7 +82,7 @@ def main( ):
 	else:
 		print( "Noise model not supported!" )
 		exit( )
-	img1 = cv2.imread( "Pattern.bmp", -1 )
+	img1 = cv2.imread( "./images/Pattern.bmp", -1 )
 	if method == 1:
 		img2 = uniform_noise( img1, scale )
 	elif method == 2:

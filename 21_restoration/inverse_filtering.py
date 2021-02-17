@@ -62,7 +62,7 @@ def inverse_filtering( f, cutoff, radius ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "Brunch.bmp", 0 )
+	img1 = cv2.imread( "./images/Brunch.bmp", 0 )
 	img2 = gaussian_lowpass( img1, 50 )
 	img3 = inverse_filtering( img2, 50, 100 )
 	cv2.imshow( "Original Image", img1 )

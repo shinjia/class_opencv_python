@@ -15,7 +15,7 @@ def inpainting( f, method = 1 ):
 	return g
 
 def main( ):
-	img1 = cv2.imread( "Shizheng_N7_Mask.bmp", -1 )
+	img1 = cv2.imread( "./images/Shizheng_N7_Mask.bmp", -1 )
 	img2 = inpainting( img1, 1 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Inpainting", img2 )

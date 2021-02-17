@@ -1,7 +1,7 @@
 import cv2
 
-# img = cv2.imread('../images/lenna_gray.bmp', cv2.IMREAD_GRAYSCALE)
-img = cv2.imread('../images/osaka.bmp', cv2.IMREAD_GRAYSCALE)
+# img = cv2.imread('./images/lenna_gray.bmp', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('./images/osaka.bmp', cv2.IMREAD_GRAYSCALE)
 
 # 將 sobel 的 ksize 設為 -1，即為 scharr
 ksize = -1  ## -1, 1, 3, 5

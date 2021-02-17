@@ -82,7 +82,7 @@ def band_filtering( f, filter, D0, width, order ):
 	return g
 	
 def main( ):
-	img1 = cv2.imread( "Brunch_Periodic_Noise.bmp", -1 )
+	img1 = cv2.imread( "./images/Brunch_Periodic_Noise.bmp", -1 )
 	img2 = band_filtering( img1, 1, 100, 20.0, 1 )
 	cv2.imshow( "Original Image", img1 )
 	cv2.imshow( "Bandreject Filtering", img2 )
