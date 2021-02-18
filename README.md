@@ -135,23 +135,32 @@
 - 5_convex_hull.py
 - 6_convexity_defects.py
 
-## 18_edge
+## 18_pyramid
+- p1.py
+- p2.py
+- p3.py
+- p4.py
+- p5.py
+- p6.py
+- p7.py
+
+## 19_edge
 - canny.py
 
-## 19_shape
+## 20_shape
 - 1_hough_line_detection.py
 - 2_hough_circle_detection.py
 - 3_shape_features.py
 - 4_CC_labeling.py
 
-## 20_segmention
+## 21_segmention
 - watershed.py
 - grabcut.py
 
-## 21_template_match
+## 22_template_match
 - ORB_feature_matching.py
 
-## 22_restoration
+## 23_restoration
 - 1_image_noise.py
 - 2_periodic_noise.py
 - 3_PSNR_example.py
@@ -160,15 +169,6 @@
 - 6_inverse_filtering.py
 - 7_wiener_filtering.py
 - 8_inpainting.py
-
-## 23_pyramid
-- p1.py
-- p2.py
-- p3.py
-- p4.py
-- p5.py
-- p6.py
-- p7.py
 
 ## 24_effect
 - 1_radial_pixelation.py
