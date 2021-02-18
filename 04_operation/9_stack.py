@@ -8,8 +8,8 @@ blur2 = cv2.blur(img, (2,2))
 blur3 = cv2.blur(img, (5,5))
 blur4 = cv2.blur(img, (10,10))
 
-h1 = np.hstack((img,blur2))
-h2 = np.hstack((blur3,blur4))
+h1 = np.hstack((img, blur2))
+h2 = np.hstack((blur3, blur4))
 v = np.vstack((h1, h2))
 
 cv2.imshow("merged_img", v)
