@@ -6,8 +6,8 @@
 - 3_write.py
 
 ## 02_video
-- 1_capture1.py
-- 2_capture2.py
+- 1_capture.py
+- 2_capture_save.py
 - 3_fps.py
 - 4_video_info.py
 - 5_video_set.py
@@ -24,8 +24,11 @@
 - 6_ROI2.py
 
 ## 04_operation
-- 1_stack.py
+- 1_blank.py
+- 2_negative.py
 - 9_stack.py
+- ex_license1.py
+- ex_license2.py
 
 ## 05_colorspace
 - 1_track_bar.py
@@ -88,10 +91,10 @@
 - 3_scharr.py
 - 4_compare.py
 - 5_laplacian.py
+- image_gradient.py
 
 ## 12_sharpness
 - composite_laplacian.py
-- image_gradient.py
 - laplacian.py
 - unsharp_masking.py
 
@@ -158,7 +161,9 @@
 - grabcut.py
 
 ## 22_template_match
-- ORB_feature_matching.py
+- 1_ORB_feature.py
+- 2_match_orb.py
+- 3_match.knn.py
 
 ## 23_restoration
 - 1_image_noise.py
@@ -186,7 +191,7 @@
 - 4_stylization.py
 
 ## 26_k-nearest
-- 1.py
+- 1_basic.py
 - 2_OCR.py
 
 ## 27_svm
@@ -203,6 +208,6 @@
 - 4_eye_live.py
 
 ## 30_yolo
-- yolo1.py
-- yolo2.py
-- yolo3.py
+- 1_yolo.py
+- 2_yolo.py
+- 3_yolo.py

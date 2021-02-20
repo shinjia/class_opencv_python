@@ -1,8 +1,12 @@
 import numpy as np
 import cv2
 
-img1 = cv2.imread("./images/DSP.bmp", 0)
-img2 = cv2.imread("./images/DSP_Scene.bmp", 0)
+# img1 = cv2.imread("./images/DSP.bmp", 0)
+# img2 = cv2.imread("./images/DSP_Scene.bmp", 0)
+img1 = cv2.imread('./images/box.png', -1)
+img2 = cv2.imread('./images/box_in_scene.png', -1)
+
+
 orb = cv2.ORB_create()
 kp1, des1 = orb.detectAndCompute(img1, None)
 kp2, des2 = orb.detectAndCompute(img2, None)
