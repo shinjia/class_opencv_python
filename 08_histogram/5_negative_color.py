@@ -7,14 +7,14 @@ def image_negative(f):
 	return g
 
 def main():
-	img1 = cv2.imread('./images/messi5.jpg', -1)
-	img2 = image_negative(img1)
-	cv2.imshow('Original Image', img1)	
+	img = cv2.imread('./images/messi5.jpg', -1)
+	img2 = image_negative(img)
+	cv2.imshow('Original Image', img)
 	cv2.imshow('Image Negative', img2)	
 	
 	color = ('b', 'g', 'r') 
 	for i, col in enumerate(color): 
-		histr = cv2.calcHist([img1], [i], None, [256], [0, 256]) 
+		histr = cv2.calcHist([img], [i], None, [256], [0, 256]) 
 		plot1 = plt.figure(1)
 		plt.plot(histr, color = col) 
 		plt.xlim([0, 256]) 

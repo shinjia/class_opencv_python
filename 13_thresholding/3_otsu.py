@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 
 img = cv2.imread('./images/bimodal_hsv_noise.png', 0)
 
+
 # global thresholding
 ret1,th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
 
