@@ -18,10 +18,11 @@
 ## 03_info
 - 1_image_info.py
 - 2_pixel_info.py
-- 3_pixel_array1.py
-- 4_pixel_array2.py
-- 5_ROI1.py
-- 6_ROI2.py
+- 3_pixel_array.py
+- 4_data_type.py
+- 5_slicing.py
+- 6_ROI1.py
+- 7_ROI2.py
 
 ## 04_operation
 - 1_blank.py

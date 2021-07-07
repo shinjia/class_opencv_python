@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img1 = cv2.imread( "Gallery.bmp", -1 )
+img1 = cv2.imread( "../images/baboon.jpg", -1 )
 nr, nc = img1.shape[:2]
 pts1 = np.float32( [ [ 795, 350 ], [ 795, 690 ], [ 1090, 720 ], [ 1090, 250 ] ] )
 pts2 = np.float32( [ [ 0, 0 ], [ 0, 500 ], [ 650, 500 ], [ 650, 0 ] ] )

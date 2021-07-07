@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-filename = input("Please enter filename: ")
+filename = input("Please enter filename: (../images/lenna.jpg) ")
 img = cv2.imread(filename, -1)
 nr, nc = img.shape[:2]
 
