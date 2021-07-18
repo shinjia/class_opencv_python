@@ -1,35 +1,35 @@
 # YOLO object detection
-import cv2 as cv
+import cv2
 import numpy as np
 import time
 
-img = cv.imread('images/horse.jpg')
-cv.imshow('window',  img)
-cv.waitKey(1)
+img = cv2.imread('images/horse.jpg')
+cv2.imshow('window',  img)
+cv2.waitKey(1)
 
 # Give the configuration and weight files for the model and load the network.
-net = cv.dnn.readNetFromDarknet('yolov3.cfg', 'yolov3.weights')
-net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
-# net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU)
+net = cv2.dnn.readNetFromDarknet('yolov3.cfg', 'yolov3.weights')
+net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
+# net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
 ln = net.getLayerNames()
 print(len(ln), ln)
 
 # construct a blob from the image
-blob = cv.dnn.blobFromImage(img, 1/255.0, (416, 416), swapRB=True, crop=False)
+blob = cv2.dnn.blobFromImage(img, 1/255.0, (416, 416), swapRB=True, crop=False)
 r = blob[0, 0, :, :]
 
-cv.imshow('blob', r)
+cv2.imshow('blob', r)
 text = f'Blob shape={blob.shape}'
-# cv.displayOverlay('blob', text)
-cv.waitKey(1)
+# cv2.displayOverlay('blob', text)
+cv2.waitKey(1)
 
 net.setInput(blob)
 t0 = time.time()
 outputs = net.forward(ln)
 t = time.time()
 
-# cv.displayOverlay('window', f'forward propagation time={t-t0}')
-cv.imshow('window',  img)
-cv.waitKey(0)
-cv.destroyAllWindows()
+# cv2.displayOverlay('window', f'forward propagation time={t-t0}')
+cv2.imshow('window',  img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

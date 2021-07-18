@@ -22,7 +22,7 @@ while True:
         break
     elif k == ord('s'): # 等候按 s 鍵後存檔
         idx += 1
-        filename = 'output_' + str(idx) + ''.png'
+        filename = 'output_' + str(idx) + '.png'
         cv2.imwrite(filename, img)
         print('影像檔案儲存到 ', filename)
 

@@ -27,7 +27,11 @@
 ## 04_operation
 - 1_blank.py
 - 2_negative.py
-- 9_stack.py
+- 3_add.py
+- 4_bitwise.py
+- 5_blend.py
+- 6_photoshop.py
+- 7_add_border.py
 - ex_license1.py
 - ex_license2.py
 
@@ -39,17 +43,19 @@
 - 5_HSV.py
 - 6_YCrCb.py
 - 7_pseudo_color.py
-- 8_skin_color.py
-- 8_skin_color_live.py
+- 8_fetch_color.py
+- 9_skin_color.py
+- 9_skin_color_live.py
 
 ## 06_transformation
 - 1_mapping.py
 - 2_scaling.py
 - 3_rescaling.py
 - 4_flip.py
-- 5_rotation.py
-- 6_affine.py
-- 7_perspective.py
+- 5_translate
+- 6_rotation.py
+- 7_affine.py
+- 8_perspective.py
 
 ## 07_drawing
 - 1_drawing.py
@@ -63,16 +69,19 @@
 - 2_beta_function.py
 - 2_beta_correction.py
 - 3_histogram.py
-- 4_histogram_equalization.py
-- 5_negative_color.py
+- 4_negative_color.py
+- 5_equalization_gray.py
+- 6_equalization_color
 
 ## 09_convolution
 - 1_array_rotate.py
 - 2_correlation.py
 - 3_convolution1D.py
 - 4_convolution2D.py
-- 5_filter.py
-- 6_manual.py
+- 5_image_convolution.py
+- 6_filter.py
+- 7_manual.py
+- 8_compare_detail.py
 
 ## 10_smoothing
 - 1_filter_2D.py
