@@ -205,11 +205,14 @@
 - 2_OCR.py
 
 ## 27_svm
-- 1_OCR.py
+- 1_basic.py
+- 2_non_linear.py
+- 3_OCR.py
 
 ## 28_k-means
-- 1.py
-- 2_color_quantization.py
+- 1_basic.py
+- 2_basic_ext.py
+- 3_color_quantization.py
 
 ## 29_face_detection
 - 1_face_detection.py
