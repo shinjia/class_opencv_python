@@ -1,5 +1,15 @@
 # 程式總目錄
 
+- Part1: Basic Operation (01-04)
+- Part2: Image Operation (05-07)
+- Part3: Enhancement (08-12)
+- Part4: Feature Detection (13-21)
+- Part5: Special Effect (22-25)
+- Part6: Machine Learning (26-28)
+- Part7: Object Detection (29-30)
+
+========== Part1: Basic Operation ===============
+
 ## 01_file
 - 1_open.py
 - 2_open_more.py
@@ -35,6 +45,8 @@
 - ex_license1.py
 - ex_license2.py
 
+========== Part2: Image Operation ===============
+
 ## 05_colorspace
 - 1_track_bar.py
 - 2_RGB.py
@@ -62,6 +74,8 @@
 - 2_paint1.py
 - 3_paint2.py
 - 4_puttext.py
+
+========== Part3: Enhancement ===================
 
 ## 08_histogram
 - 1_gamma_function.py
@@ -108,6 +122,8 @@
 - laplacian.py
 - unsharp_masking.py
 
+========== Part4: Feature Detection =============
+
 ## 13_thresholding
 - 1_threshold.py
 - 2_adaptive.py
@@ -126,7 +142,7 @@
 - 8_kernel_basic.py
 - 8_kernel_image.py
 
-# 15-thinning
+## 15_thinning
 - 1_distance_transform.py
 - 2_hole_filling.py
 - 3_thinning.py
@@ -170,6 +186,8 @@
 - watershed.py
 - grabcut.py
 
+========== Part5: Special Effect ================
+
 ## 22_template_match
 - 1_ORB_feature.py
 - 2_match_orb.py
@@ -200,6 +218,8 @@
 - 3_pencil_sketch.py
 - 4_stylization.py
 
+========== Part6: Machine Learning ==============
+
 ## 26_k-nearest
 - 1_basic.py
 - 2_OCR.py
@@ -213,6 +233,8 @@
 - 1_basic.py
 - 2_basic_ext.py
 - 3_color_quantization.py
+
+========== Part7: Object Detection ==============
 
 ## 29_face_detection
 - 1_face_detection.py
