@@ -4,8 +4,11 @@ import cv2
 def face_detection(f):
 	g = f.copy()
 	gray = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY)
-	face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+	# face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 	# face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
+	face_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
+
+
 	faces = face_cascade.detectMultiScale(gray, 1.1, 5)
 	for (x, y, w, h) in faces:
 		g = cv2.rectangle(g, (x, y), (x + w, y + h), (0, 255, 0), 2)
@@ -19,7 +22,7 @@ def main():
 	cv2.destroyAllWindows()
 
 def live():    
-	cap = cv2.VideoCapture(0)
+	cap = cv2.VideoCapture(1)
 	while True:
 		ret, frame = cap.read()
 		img2 = face_detection(frame)
