@@ -26,13 +26,15 @@
 - 8_read_video.py
 
 ## 03_info
-- 1_image_info.py
-- 2_pixel_info.py
-- 3_pixel_array.py
-- 4_data_type.py
-- 5_slicing.py
-- 6_ROI1.py
-- 7_ROI2.py
+- 1_img_array.py
+- 2_img_numpy.py
+- 3_image_info.py
+- 4_pixel_info.py
+- 5_pixel_array.py
+- 6_data_type.py
+- 7_slicing.py
+- 8_ROI1.py
+- 9_ROI2.py
 
 ## 04_operation
 - 1_blank.py
@@ -224,15 +226,15 @@
 - 1_basic.py
 - 2_OCR.py
 
-## 27_svm
-- 1_basic.py
-- 2_non_linear.py
-- 3_OCR.py
-
-## 28_k-means
+## 27_k-means
 - 1_basic.py
 - 2_basic_ext.py
 - 3_color_quantization.py
+
+## 28_svm
+- 1_basic.py
+- 2_non_linear.py
+- 3_OCR.py
 
 ========== Part7: Object Detection ==============
 
@@ -241,8 +243,3 @@
 - 2_face_live.py
 - 3_eye.py
 - 4_eye_live.py
-
-## 30_yolo
-- 1_yolo.py
-- 2_yolo.py
-- 3_yolo.py
